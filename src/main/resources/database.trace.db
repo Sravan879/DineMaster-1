@@ -1,0 +1,184 @@
+2023-12-06 18:10:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RESTAURANT" not found (this database is empty); SQL statement:
+select * from Restaurant [42104-214]
+2023-12-06 18:10:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Restaurant (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    address TEXT,\000d\000a    cuisineType TEXT,\000d\000a    rating INTEGER\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Restaurant (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    address TEXT,
+    cuisineType TEXT,
+    rating INTEGER
+) [42001-214]
+2023-12-06 18:10:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Chef (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    firstName TEXT,\000d\000a    lastName TEXT,\000d\000a    expertise TEXT,\000d\000a    experienceYears INTEGER,\000d\000a    restaurantId INTEGER,\000d\000a    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Chef (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    firstName TEXT,
+    lastName TEXT,
+    expertise TEXT,
+    experienceYears INTEGER,
+    restaurantId INTEGER,
+    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)
+) [42001-214]
+2023-12-06 18:12:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Restaurant (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    address TEXT,\000d\000a    cuisineType TEXT,\000d\000a    rating INTEGER\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Restaurant (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    address TEXT,
+    cuisineType TEXT,
+    rating INTEGER
+) [42001-214]
+2023-12-06 18:12:07 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Chef (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    firstName TEXT,\000d\000a    lastName TEXT,\000d\000a    expertise TEXT,\000d\000a    experienceYears INTEGER,\000d\000a    restaurantId INTEGER,\000d\000a    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Chef (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    firstName TEXT,
+    lastName TEXT,
+    expertise TEXT,
+    experienceYears INTEGER,
+    restaurantId INTEGER,
+    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)
+) [42001-214]
+2023-12-06 18:12:13 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Chef (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    firstName TEXT,\000d\000a    lastName TEXT,\000d\000a    expertise TEXT,\000d\000a    experienceYears INTEGER,\000d\000a    restaurantId INTEGER,\000d\000a    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Chef (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    firstName TEXT,
+    lastName TEXT,
+    expertise TEXT,
+    experienceYears INTEGER,
+    restaurantId INTEGER,
+    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)
+) [42001-214]
+2023-12-06 18:12:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Restaurant (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    address TEXT,\000d\000a    cuisineType TEXT,\000d\000a    rating INTEGER\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Restaurant (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    address TEXT,
+    cuisineType TEXT,
+    rating INTEGER
+) [42001-214]
+2023-12-06 18:12:18 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Chef (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    firstName TEXT,\000d\000a    lastName TEXT,\000d\000a    expertise TEXT,\000d\000a    experienceYears INTEGER,\000d\000a    restaurantId INTEGER,\000d\000a    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Chef (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    firstName TEXT,
+    lastName TEXT,
+    expertise TEXT,
+    experienceYears INTEGER,
+    restaurantId INTEGER,
+    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)
+) [42001-214]
+2023-12-06 18:12:44 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Restaurant (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    address TEXT,\000d\000a    cuisineType TEXT,\000d\000a    rating INTEGER\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Restaurant (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    address TEXT,
+    cuisineType TEXT,
+    rating INTEGER
+) [42001-214]
+2023-12-06 18:12:48 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Restaurant (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    address TEXT,\000d\000a    cuisineType TEXT,\000d\000a    rating INTEGER\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Restaurant (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    address TEXT,
+    cuisineType TEXT,
+    rating INTEGER
+) [42001-214]
+2023-12-06 18:13:14 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE Restaurant (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    address TEXT,\000d\000a    cuisineType TEXT,\000d\000a    rating INTEGER\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE Restaurant (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    address TEXT,
+    cuisineType TEXT,
+    rating INTEGER
+) [42001-214]
+2023-12-06 18:14:53 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Chef (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    firstName TEXT,\000d\000a    lastName TEXT,\000d\000a    expertise TEXT,\000d\000a    experienceYears INTEGER,\000d\000a    restaurantId INTEGER,\000d\000a    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Chef (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    firstName TEXT,
+    lastName TEXT,
+    expertise TEXT,
+    experienceYears INTEGER,
+    restaurantId INTEGER,
+    FOREIGN KEY (restaurantId) REFERENCES Restaurant(id)
+) [42001-214]
+2023-12-06 18:21:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Restaurant ( id INTEGER PRIMARY KEY [*]AUTOINCREMENT, name TEXT, address TEXT, cuisineType TEXT, rating INTEGER )"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Restaurant ( id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, address TEXT, cuisineType TEXT, rating INTEGER ) [42001-214]
+2023-12-06 18:24:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "Drop [*]RESTAURANT"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+Drop RESTAURANT [42001-214]
+2023-12-06 18:24:41 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop [*]* FROM RESTAURANT"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL OBJECTS, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+drop * FROM RESTAURANT [42001-214]
+2023-12-06 18:25:01 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "RESTAURANT" because "CONSTRAINT_1F" depends on it; SQL statement:
+drop table restaurant [90107-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:632)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:97)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:121)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:169)
+	at org.h2.command.Command.executeUpdate(Command.java:252)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:252)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1339)
+	at org.h2.server.web.WebApp.query(WebApp.java:1137)
+	at org.h2.server.web.WebApp.query(WebApp.java:1113)
+	at org.h2.server.web.WebApp.process(WebApp.java:244)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2023-12-06 18:25:45 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS Restaurant (\000d\000a    id INTEGER PRIMARY KEY [*]AUTOINCREMENT,\000d\000a    name TEXT,\000d\000a    address TEXT,\000d\000a    cuisineType TEXT,\000d\000a    rating INTEGER\000d\000a)"; expected "HASH, CONSTRAINT, COMMENT, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS Restaurant (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    address TEXT,
+    cuisineType TEXT,
+    rating INTEGER
+) [42001-214]
