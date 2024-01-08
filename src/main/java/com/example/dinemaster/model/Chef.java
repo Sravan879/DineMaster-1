@@ -28,10 +28,10 @@ public class Chef {
     @Column(name = "expertise")
     private String expertise;
 
-    @Column(name = "experienceYears")
+    @Column(name = "experienceyears")
     private int experienceYears;
 
-    @Column(name = "restaurant")
+    @ManyToOne(name = "restaurantid")
     private Restaurant restaurant;
 
     public Chef() {
